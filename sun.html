@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes sliding{
+            0%{
+                
+                background-color: red;
+                left: 0px;
+                top: 0px;
+                transform: scale(1);
+               
+               
+            }
+            10%{
+                background-color: wheat;
+                top: 500px;
+                transform: scale(.5);
+            }
+            20%{
+                background-color: cadetblue;
+                top: 0px;
+                transform: scale(1);
+               
+            }
+            30%{
+                background-color: aquamarine;
+                top: 500px;
+                transform: scale(.5);
+            }
+            40%{
+                background-color: lawngreen;
+                top: 0px;
+                transform: scale(1);
+               
+            }
+            50%{
+                background-color: rgb(68, 68, 226);
+                top: 500px;
+                transform: scale(.5);
+            }
+            60%{
+                background-color: rebeccapurple;
+                top: 0px;
+                transform: scale(1);
+                
+            }
+            70%{
+                background-color: lightcoral;
+                top: 500px;
+                transform: scale(.5);
+            }
+            80%{
+                background-color: white;
+                top: 0px;
+                transform: scale(1);
+                
+            }
+            90%{
+                background-color:grey;
+                top: 500px;
+                transform: scale(.5);
+            }
+            
+            100%{
+                background-color: orange;
+                top: 0px;
+                left: 800px;
+                transform: scale(1);
+             
+            }
+        }
+        .first-div{
+            background-color: skyblue;
+            height: 600px;
+            width: 900px;
+        }
+        .second-div{
+            height: 100px;
+            width: 100px;
+            border-radius: 50px;
+            background-color: red;
+            animation: sliding 8s ease-in-out 0.5s infinite alternate ;
+            animation-play-state: running;
+            position: relative;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="table.html">Home-table</a></li>
+                <li><a href="visibility.html">Visible</a></li>
+                <li><a href="sun.html">Sun</a></li>
+                <li><a href="overflow.html">Over</a></li>
+                <li><a href="input.html">Input</a></li>
+                <li><a href="icon-add.html">Icon</a></li>
+                <li><a href="bat.html">bat</a></li>
+                <li><a href="aside-blog-custom.html">aside</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="first-div">
+        <div class="second-div">
+
+        </div>
+    </div>
+    <section>
+        <pre>
+            amader deshe hobe sei chele kobe kothai  na boro hoye kaje boro hobe.
+                                amar sonar bangla ami tomai valobashi
+                chirodin tomar akash tomar batas amar 
+                        prane bajai basi sonar bangla
+        </pre>
+        <s>she is my past</s>
+        <var>(a+b) <sup>2</sup></var>
+    </section>
+    <article>
+        <div>
+            <samp>404! Not Found.Please Try Again Letter.Allah Hafez</samp>
+            <small>Hi i am rakib</small>
+            <select name="" id="">
+                <optgroup label="favourite names">
+                    <option value="">
+                        Rakib
+                    </option>
+                </optgroup>
+            </select>
+            <marquee behavior="alternate" direction="left">amar sonar bangla ami tomai valobashi</marquee>
+            <marquee behavior="scrole" direction="right">i am fine</marquee>
+            <marquee behavior="slide" direction="left">hare re re amai sere de re dere</marquee>
+        </div>
+    </article>
+</body>
+</html>

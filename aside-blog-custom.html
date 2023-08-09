@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        footer{
+            clear: both;
+        }
+        aside,div{
+            float: left;
+            height: 600px;
+        }
+        aside{
+            background-color: blueviolet;
+            width: 400px;
+        }
+        div{
+            background-color: cornflowerblue;
+            width: calc(100% - 400px);
+            /* width: calc2*(100% - 400px); */
+        }
+        .sec{
+            height: 300px;
+            width: 300px;
+            background-color: rgb(0, 0, 0);
+            border: 1 px solid gray;
+            margin-top: 20px;
+        }
+        .box{
+            height: 300px;
+            width: 300px;
+            background-color: blueviolet;
+            transform: scale(.5) rotate(45deg) translateX(30px);
+        }
+        
+        
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="table.html">Home-table</a></li>
+                <li><a href="visibility.html">Visible</a></li>
+                <li><a href="sun.html">Sun</a></li>
+                <li><a href="overflow.html">Over</a></li>
+                <li><a href="input.html">Input</a></li>
+                <li><a href="icon-add.html">Icon</a></li>
+                <li><a href="bat.html">bat</a></li>
+                <li><a href="aside-blog-custom.html">aside</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <aside>Hi I Am Rakib</aside>
+        <div>
+            <h4>I am your hope</h4>
+        </div>
+    </section>
+    <div class="sec">
+        <div class="box"></div>
+       
+    </div>
+    <footer><small>x-boy</small></footer>
+</body>
+</html>
