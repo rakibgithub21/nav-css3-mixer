@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes sliding{
+            0%{
+                background-color: red;
+                left: 0px;
+                top: 0px;
+            }
+            10%{
+                background-color: brown;
+                top: 500px;
+            }
+            20%{
+                background-color: blueviolet;
+                top: 20px;
+            }
+            30%{
+                background-color:black;
+                top: 100px;
+            }
+            40%{
+                background-color: bisque;
+                top: 20px;
+            }
+            100%{
+                background-color: yellow;
+                left: 800px;
+                top: 500px;
+            }
+        }
+        .first-div{
+            height: 600px;
+            width: 900px;
+            background-color: skyblue;
+        }
+        .second-div{
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            border-radius: 50px;
+            animation: sliding 3s ease-in-out 0.5s infinite alternate ;
+            animation-play-state: running;
+            position: relative;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="first-div">
+        <div class="second-div">
+
+        </div>
+    </div>
+</body>
+</html>
