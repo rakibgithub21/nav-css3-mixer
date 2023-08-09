@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes sliding{
+            0%{
+                background-color: orangered;
+                left: 0px;
+                top: 0px;
+                transform: scale(.5);
+            }
+            50%{
+                background-color: white;
+                top: 700px;
+                transform: scale(1);
+
+            }
+            100%{
+                background-color: yellow;
+                left: 1650px;
+                top: 0px;
+                transform: scale(.5);
+            }
+        }
+        .area{
+            height: 900px;
+            width: 1850px;
+            background-color: skyblue;
+        }
+        .sun{
+            height: 200px;
+            width: 200px;
+            border-radius: 100px;
+            background-color: red;
+            animation: sliding 1s ease-in-out 0.5s infinite alternate ;
+            animation-play-state: running;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <div class="area">
+        <div class="sun">
+
+        </div>
+    </div>
+</body>
+</html>
